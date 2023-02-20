@@ -9,6 +9,12 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="/assets/icons/icon-128x128.png">
   <link rel="stylesheet" href="./styles.css">
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/assets/icons/icon-96x96.png">
+  <link name="apple-mobile-web-app-status-bar" content="red">
+  <!-- couleur status bar Android -->
+  <meta name="theme-color" content="green">
 </head>
 
 <body>
@@ -22,6 +28,9 @@
     <ul id="result"></ul>
   </div>
   <img src="./assets/icons/icon-512x512.png" alt="logo">
+
+  <!-- Pour le serviceWorker app.js -->
+  <script src="js/app.js"></script>
 
   <script src="js/index.js"></script>
 </body>
