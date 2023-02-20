@@ -3,7 +3,7 @@ const searchInput = document.getElementById("searchInput");
 const result = document.getElementById("result");
 
 let search = "";
-let movie = [];
+let movies = [];
 
 // Va chercher le lien avec FETCH puis renvoi nous le resultat RES
 // puis converti le en json avec RES.JSON()
